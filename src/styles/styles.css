@@ -1,0 +1,27 @@
+.homepg {
+  margin-top: 80px;
+  background: url('./images/170606.jpg') no-repeat;
+  height: 500px;
+}
+
+.headerfx {
+  background-color: lightgoldenrodyellow;
+  height: 70px;
+  font-size: medium;
+  padding-top: 25px;
+}
+
+.libLink {
+  text-align: center;
+  color: black;
+}
+
+.logo {
+  font-size: xx-large;
+  top: -6px;
+  color: brown;
+}
+
+a {
+  color: black;
+}
