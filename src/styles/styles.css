@@ -1,7 +1,10 @@
+.appContents {
+  margin-bottom: 10px;
+}
+
 .homepg {
-  margin-top: 80px;
   background: url('./images/170606.jpg') no-repeat;
-  height: 500px;
+  height: 600px;
 }
 
 .headerfx {
@@ -9,6 +12,12 @@
   height: 70px;
   font-size: medium;
   padding-top: 25px;
+  text-align: center;
+}
+
+.footerfx {
+  background: #D3D3D5;
+  margin-top: 20px;
 }
 
 .libLink {
@@ -24,4 +33,24 @@
 
 a {
   color: black;
+}
+
+.musicPoster {
+  background: url('./images/depositphotos_3147109-Pastel-colored-music-notes.jpg') ;
+  width: 90%;
+  height: 90%;
+  color: black;
+  text-align: center;
+  background-size: contain;
+  font-weight: 500;
+}
+
+.card-title {
+  padding-top: 35%
+}
+
+.cardText {
+  color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
 }

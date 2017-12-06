@@ -1,11 +1,15 @@
 import React from 'react';
+import data from '../../public/data/musicPosterData.json';
+import MusicPoster from '../musicPoster/MusicPoster';
 
-export default class ProductPage extends React.Component {
-  render() {
-    return (
-      <div className="jumbotron">
-        <button className="btn btn-primary">Product1 </button>
-      </div>
-    );
-  }
+export default class LibraryPage extends React.Component {
+   render() {
+     const info = data;
+     return info.map((item)=>(
+       <div className="LibraryPage col-md-4">
+         <MusicPoster info = {item} />
+       </div>
+     )
+   )
+   }
 }

@@ -1,9 +1,8 @@
-import 'babel-polyfill';
+ import 'babel-polyfill';
  import React from 'react';
  import { render } from 'react-dom';
  import HomePage from './components/home/HomePage';
  import LibraryPage from './components/library/LibraryPage';
- import Header from './components/common/Header';
  import App from './components/App';
  import { Route, BrowserRouter } from 'react-router-dom';
  import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +13,6 @@ render(
   <BrowserRouter>
     <div>
       <App>
-        <Route path="/" component={Header} />
         <Route exact path="/" component={HomePage} />
         <Route path="/library" component={LibraryPage} />
         <Route path="/Home" component={HomePage} />
